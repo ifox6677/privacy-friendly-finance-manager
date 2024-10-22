@@ -1,0 +1,138 @@
+<resources>
+    <!-- ### A P P ### -->
+    <string name="app_name" translatable="false">财务管理器</string>
+    <string name="app_name_long" translatable="false">隐私友好的财务管理器</string>
+
+    <!-- ### D A T E _ A N D _ T I M E _ M A N A G E M E N T ### -->
+    <string name="time_format_string">"dd/MM/yyyy HH:mm:ss"</string>
+
+    <!-- ### G E N E R A L ### -->
+    <string name="balance">余额</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="amount">金额</string>
+    <string name="name">名称</string>
+    <string name="date">日期</string>
+    <string name="help">帮助</string>
+    <string name="submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="okay">确定</string>
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="please_note">请注意：</string>
+    <string name="weeks">周</string>
+    <string name="months">月</string>
+    <string name="every">每</string>
+    <string name="until">直到</string>
+    <string name="forever">永久</string>
+    <string name="never">从不</string>
+
+    <!-- ### S T A R T _ U P ### -->
+    <string name="activity_startup_init_key_store_msg">初始化密钥存储中&#8230;</string>
+    <string name="activity_startup_create_passphrase_msg">创建密码短语中&#8230;</string>
+    <string name="activity_startup_decrypt_phassphrase_msg">解密密码短语中&#8230;</string>
+    <string name="activity_startup_open_database_msg">打开数据库中&#8230;</string>
+    <string name="activity_startup_create_and_open_database_msg">创建并打开数据库中&#8230;</string>
+    <string name="activity_startup_migrate_database_msg">迁移数据库中&#8230;</string>
+
+    <!-- ### N A V _ B A R ### -->
+    <string name="nav_help_action">帮助</string>
+    <string name="nav_about_action">关于</string>
+    <string name="nav_main_action">交易概览</string>
+    <string name="nav_tutorial_action">教程</string>
+    <string name="nav_category_action">类别</string>
+    <string name="nav_drawer_toggle_open_desc">打开导航抽屉</string>
+    <string name="nav_drawer_toggle_close_desc">关闭导航抽屉</string>
+
+    <!-- ### H E L P ### -->
+    <string-array name="activity_help_questions">
+        <item>什么是隐私友好的财务管理器？</item>
+        <item>如何管理我的收入和支出？</item>
+        <item>我如何分类我的支出？</item>
+        <item>是什么使该应用程序隐私友好？</item>
+        <item>该应用程序需要哪些权限？</item>
+        <item>如何删除我创建的条目？</item>
+        <item>账户是做什么用的？</item>
+    </string-array>
+    <string-array name="activity_help_answers">
+        <item>隐私友好的财务管理器是一款用于监控个人收入和支出的应用程序。</item>
+        <item>通过工具栏中的 + 按钮可以将财务交易（收入或支出）添加到您的财务历史记录中。交易列表显示在导航菜单中，可以从那里调用。列表中的条目可以编辑或删除。</item>
+        <item>如果您进入菜单项“类别”，可以创建新类别。在创建新交易时，可以将类别分配给交易。类别的总余额显示在菜单项“类别”下。</item>
+        <item>隐私友好的财务管理器不需要任何权限，并且不包含任何跟踪机制或广告。</item>
+        <item>隐私友好的财务管理器不需要任何权限。</item>
+        <item>任何条目，无论是交易、重复交易、账户还是类别，都可以通过向左或向右滑动条目并点击出现的红色垃圾桶按钮删除。</item>
+        <item>账户可用于追踪您在某个银行真实账户中的资金。可以更改每月初的余额，这样您就不必手动添加所有的小额支出和收入。在账户视图中，您可以看到与相应账户相关的所有交易的概览。</item>
+    </string-array>
+
+    <!-- ### A B O U T ### -->
+    <string name="activity_about_title">关于</string>
+    <string name="activity_about_version">版本 v%s</string>
+    <string name="activity_about_authors">作者：</string>
+    <string name="activity_about_authors_contributors">以及贡献者。</string>
+    <string name="activity_about_affiliation">合作机构</string>
+    <string name="activity_about_belongs">本应用程序属于由卡尔斯鲁厄理工学院（KIT）开发的隐私友好应用程序系列。源码在GPLv3许可证下发布。图片版权归KIT和Google Inc.所有。</string>
+    <string name="activity_about_more_info">更多信息请访问：</string>
+    <string name="activity_about_github_link" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-finance-manager">Github仓库</a></string>
+    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO网站</a></string>
+
+    <!-- ### R E P E A T I N G _ T R A N S A C T I O N S ### -->
+    <string name="activity_repeating_transactions_title">重复交易</string>
+    <string name="repeat_text_unit_template">每%UNIT%重复</string>
+    <string name="repeat_text_unit_until_template">每%UNIT%重复，直到%UNTIL%</string>
+    <string name="repeat_unit_every_first_week">每周</string>
+    <string name="repeat_unit_every_n_week">每%N%周</string>
+    <string name="repeat_unit_every_first_month">每月</string>
+    <string name="repeat_unit_every_n_month">每%N%月</string>
+    <string name="repeat_ends_at">结束于</string>
+    <string name="repeat_delete_action">删除重复交易</string>
+    <string name="repeat_delete_question">所有生成的交易将保留，但将失去与此重复交易的关联。&lt;br />此操作&lt;i>无法&lt;/i>撤消。&lt;br />&lt;br />您确定要删除重复交易&lt;b>%1$s&lt;/b>吗？</string>
+    <string name="repeat_deleted_msg">重复交易已删除</string>
+
+    <!-- ### C A T E G O R Y ### -->
+    <string name="category">类别</string>
+    <string name="category_plural">类别</string>
+    <string name="category_delete_dialog_title">删除类别</string>
+    <string name="category_deleted">类别已删除</string>
+    <string name="dialog_category_name_hint">输入类别名称</string>
+    <string name="dialog_category_create_title">新类别</string>
+    <string name="dialog_category_edit_title">编辑类别</string>
+    <string name="dialog_category_empty_name_impossible_msg">类别必须有名称</string>
+    <string name="category_default_category_name">默认</string>
+    <string name="activity_category_manifest_label" translatable="false">类别活动</string>
+    <string name="activity_category_category_balance_month_label">本月类别余额：</string>
+    <string name="activity_category_income_month_label">本月收入：</string>
+    <string name="activity_category_expenses_month_label">本月支出：</string>
+    <string name="category_saved_msg">类别已保存</string>
+    <string name="dialog_category_name_taken_msg">此名称的类别已存在。请选用其他名称。</string>
+    <string name="activity_categories_empty_list_label">未找到类别</string>
+
+    <!-- ### T R A N S A C T I O N ### -->
+    <string name="activity_transaction_saved_msg">交易已保存</string>
+    <string name="activity_transaction_deleted_msg">交易已删除</string>
+    <string name="activity_transaction_updated_msg">交易已更新</string>
+    <string name="dialog_transaction_create_title">新交易</string>
+    <string name="dialog_transaction_edit_title">编辑交易</string>
+    <string name="dialog_transaction_name_hint">输入标题</string>
+    <string name="dialog_transaction_value_hint">输入金额</string>
+    <string name="dialog_transaction_radio_button_income_action">收入</string>
+    <string name="dialog_transaction_radio_button_expense_action">支出</string>
+    <string name="dialog_transaction_date_hint">输入日期</string>
+    <string name="dialog_transaction_repeating_label">重复交易：</string>
+    <string name="dialog_transaction_no_repetition">无重复</string>
+    <string name="dialog_transaction_zero_value_impossible_msg">为保存您的条目，金额必须大于0。</string>
+    <string name="dialog_transaction_empty_title_impossible_msg">为保存您的条目，交易必须有标题。</string>
+
+    <!-- ### A C C O U N T ### -->
+    <string name="activity_account_manifest_label" translatable="false">账户活动</string>
+    <string name="activity_account_empty_list_label">未找到账户</string>
+    <string name="account_delete_dialog_title">删除账户</string>
+    <string name="account_deleted_msg">账户已删除</string>
+    <string name="dialog_account_name_hint">输入账户名称</string>
+    <string name="dialog_account_balance_hint">输入余额</string>
+    <string name="dialog_account_create_title">新账户</string>
+    <string name="dialog_account_edit_title">编辑账户</string>
+    <string name="dialog_account_empty_name_impossible_msg">账户必须有名称</string>
+    <string name="account_saved_msg">账户已保存</string>
+    <string name="dialog_account_name_taken_msg">此名称的账户已存在。请选用其他名称。</string>
+
+</resources>
